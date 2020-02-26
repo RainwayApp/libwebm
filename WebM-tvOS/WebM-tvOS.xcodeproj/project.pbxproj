@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A0CB1C2406F3AE00F15E81 /* mkvparser.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1A2406F3AE00F15E81 /* mkvparser.cc */; };
+		B4A0CB1D2406F3AE00F15E81 /* mkvreader.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1B2406F3AE00F15E81 /* mkvreader.cc */; };
+		B4A0CB202406F3F500F15E81 /* hdr_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1E2406F3F500F15E81 /* hdr_util.cc */; };
+		B4A0CB212406F3F500F15E81 /* file_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1F2406F3F500F15E81 /* file_util.cc */; };
+		B4A0CB252406F40700F15E81 /* mkvmuxerutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB222406F40700F15E81 /* mkvmuxerutil.cc */; };
+		B4A0CB262406F40700F15E81 /* mkvwriter.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB232406F40700F15E81 /* mkvwriter.cc */; };
+		B4A0CB272406F40700F15E81 /* mkvmuxer.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB242406F40700F15E81 /* mkvmuxer.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4A0CB0C2406F31B00F15E81 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4A0CB0E2406F31B00F15E81 /* libWebM-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libWebM-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A0CB1A2406F3AE00F15E81 /* mkvparser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvparser.cc; path = ../../mkvparser/mkvparser.cc; sourceTree = "<group>"; };
+		B4A0CB1B2406F3AE00F15E81 /* mkvreader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvreader.cc; path = ../../mkvparser/mkvreader.cc; sourceTree = "<group>"; };
+		B4A0CB1E2406F3F500F15E81 /* hdr_util.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hdr_util.cc; path = ../../common/hdr_util.cc; sourceTree = "<group>"; };
+		B4A0CB1F2406F3F500F15E81 /* file_util.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = file_util.cc; path = ../../common/file_util.cc; sourceTree = "<group>"; };
+		B4A0CB222406F40700F15E81 /* mkvmuxerutil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvmuxerutil.cc; path = ../../mkvmuxer/mkvmuxerutil.cc; sourceTree = "<group>"; };
+		B4A0CB232406F40700F15E81 /* mkvwriter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvwriter.cc; path = ../../mkvmuxer/mkvwriter.cc; sourceTree = "<group>"; };
+		B4A0CB242406F40700F15E81 /* mkvmuxer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvmuxer.cc; path = ../../mkvmuxer/mkvmuxer.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A0CB0B2406F31B00F15E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A0CB052406F31B00F15E81 = {
+			isa = PBXGroup;
+			children = (
+				B4A0CB102406F31B00F15E81 /* WebM-tvOS */,
+				B4A0CB0F2406F31B00F15E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A0CB0F2406F31B00F15E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A0CB0E2406F31B00F15E81 /* libWebM-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A0CB102406F31B00F15E81 /* WebM-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4A0CB242406F40700F15E81 /* mkvmuxer.cc */,
+				B4A0CB222406F40700F15E81 /* mkvmuxerutil.cc */,
+				B4A0CB232406F40700F15E81 /* mkvwriter.cc */,
+				B4A0CB1F2406F3F500F15E81 /* file_util.cc */,
+				B4A0CB1E2406F3F500F15E81 /* hdr_util.cc */,
+				B4A0CB1A2406F3AE00F15E81 /* mkvparser.cc */,
+				B4A0CB1B2406F3AE00F15E81 /* mkvreader.cc */,
+			);
+			path = "WebM-tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A0CB0D2406F31B00F15E81 /* WebM-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A0CB172406F31B00F15E81 /* Build configuration list for PBXNativeTarget "WebM-tvOS" */;
+			buildPhases = (
+				B4A0CB0A2406F31B00F15E81 /* Sources */,
+				B4A0CB0B2406F31B00F15E81 /* Frameworks */,
+				B4A0CB0C2406F31B00F15E81 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebM-tvOS";
+			productName = "WebM-tvOS";
+			productReference = B4A0CB0E2406F31B00F15E81 /* libWebM-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A0CB062406F31B00F15E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rainway Inc.";
+				TargetAttributes = {
+					B4A0CB0D2406F31B00F15E81 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B4A0CB092406F31B00F15E81 /* Build configuration list for PBXProject "WebM-tvOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4A0CB052406F31B00F15E81;
+			productRefGroup = B4A0CB0F2406F31B00F15E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A0CB0D2406F31B00F15E81 /* WebM-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A0CB0A2406F31B00F15E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A0CB1C2406F3AE00F15E81 /* mkvparser.cc in Sources */,
+				B4A0CB252406F40700F15E81 /* mkvmuxerutil.cc in Sources */,
+				B4A0CB212406F3F500F15E81 /* file_util.cc in Sources */,
+				B4A0CB1D2406F3AE00F15E81 /* mkvreader.cc in Sources */,
+				B4A0CB272406F40700F15E81 /* mkvmuxer.cc in Sources */,
+				B4A0CB202406F3F500F15E81 /* hdr_util.cc in Sources */,
+				B4A0CB262406F40700F15E81 /* mkvwriter.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4A0CB152406F31B00F15E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		B4A0CB162406F31B00F15E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A0CB182406F31B00F15E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78995B7FMV;
+				HEADER_SEARCH_PATHS = ../;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		B4A0CB192406F31B00F15E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78995B7FMV;
+				HEADER_SEARCH_PATHS = ../;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A0CB092406F31B00F15E81 /* Build configuration list for PBXProject "WebM-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A0CB152406F31B00F15E81 /* Debug */,
+				B4A0CB162406F31B00F15E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A0CB172406F31B00F15E81 /* Build configuration list for PBXNativeTarget "WebM-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A0CB182406F31B00F15E81 /* Debug */,
+				B4A0CB192406F31B00F15E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A0CB062406F31B00F15E81 /* Project object */;
+}
