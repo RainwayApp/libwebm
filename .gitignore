@@ -1,5 +1,6 @@
 WebM-tvOS/WebM-tvOS.xcodeproj/project.xcworkspace/xcuserdata/
 WebM-tvOS/WebM-tvOS.xcodeproj/xcuserdata/
+.DS_Store
 *.mkv
 *.MKV
 core
