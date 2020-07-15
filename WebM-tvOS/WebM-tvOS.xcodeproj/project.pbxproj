@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45B809A24BD8A76008D3116 /* WebM_macOS.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B45B809924BD8A76008D3116 /* WebM_macOS.hpp */; };
+		B45B809C24BD8A76008D3116 /* WebM_macOSPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B45B809B24BD8A76008D3116 /* WebM_macOSPriv.hpp */; };
+		B45B809E24BD8A76008D3116 /* WebM_macOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B45B809D24BD8A76008D3116 /* WebM_macOS.cpp */; };
+		B45B80A224BD8A7B008D3116 /* mkvmuxer.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB242406F40700F15E81 /* mkvmuxer.cc */; };
+		B45B80A324BD8A7F008D3116 /* mkvmuxerutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB222406F40700F15E81 /* mkvmuxerutil.cc */; };
+		B45B80A424BD8A83008D3116 /* mkvwriter.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB232406F40700F15E81 /* mkvwriter.cc */; };
+		B45B80A524BD8A85008D3116 /* file_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1F2406F3F500F15E81 /* file_util.cc */; };
+		B45B80A624BD8A88008D3116 /* hdr_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1E2406F3F500F15E81 /* hdr_util.cc */; };
+		B45B80A724BD8A8C008D3116 /* mkvparser.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1A2406F3AE00F15E81 /* mkvparser.cc */; };
+		B45B80A824BD8A8F008D3116 /* mkvreader.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1B2406F3AE00F15E81 /* mkvreader.cc */; };
 		B4A0CB1C2406F3AE00F15E81 /* mkvparser.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1A2406F3AE00F15E81 /* mkvparser.cc */; };
 		B4A0CB1D2406F3AE00F15E81 /* mkvreader.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1B2406F3AE00F15E81 /* mkvreader.cc */; };
 		B4A0CB202406F3F500F15E81 /* hdr_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CB1E2406F3F500F15E81 /* hdr_util.cc */; };
@@ -29,6 +39,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B45B809724BD8A76008D3116 /* libWebM-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libWebM-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45B809924BD8A76008D3116 /* WebM_macOS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WebM_macOS.hpp; sourceTree = "<group>"; };
+		B45B809B24BD8A76008D3116 /* WebM_macOSPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WebM_macOSPriv.hpp; sourceTree = "<group>"; };
+		B45B809D24BD8A76008D3116 /* WebM_macOS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WebM_macOS.cpp; sourceTree = "<group>"; };
 		B4A0CB0E2406F31B00F15E81 /* libWebM-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libWebM-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A0CB1A2406F3AE00F15E81 /* mkvparser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvparser.cc; path = ../../mkvparser/mkvparser.cc; sourceTree = "<group>"; };
 		B4A0CB1B2406F3AE00F15E81 /* mkvreader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mkvreader.cc; path = ../../mkvparser/mkvreader.cc; sourceTree = "<group>"; };
@@ -40,6 +54,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B45B809524BD8A76008D3116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4A0CB0B2406F31B00F15E81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,10 +71,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B45B809824BD8A76008D3116 /* WebM-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B45B809924BD8A76008D3116 /* WebM_macOS.hpp */,
+				B45B809B24BD8A76008D3116 /* WebM_macOSPriv.hpp */,
+				B45B809D24BD8A76008D3116 /* WebM_macOS.cpp */,
+			);
+			path = "WebM-macOS";
+			sourceTree = "<group>";
+		};
 		B4A0CB052406F31B00F15E81 = {
 			isa = PBXGroup;
 			children = (
 				B4A0CB102406F31B00F15E81 /* WebM-tvOS */,
+				B45B809824BD8A76008D3116 /* WebM-macOS */,
 				B4A0CB0F2406F31B00F15E81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A0CB0E2406F31B00F15E81 /* libWebM-tvOS.a */,
+				B45B809724BD8A76008D3116 /* libWebM-macOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +115,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B45B809324BD8A76008D3116 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45B809C24BD8A76008D3116 /* WebM_macOSPriv.hpp in Headers */,
+				B45B809A24BD8A76008D3116 /* WebM_macOS.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		B45B809624BD8A76008D3116 /* WebM-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45B80A124BD8A76008D3116 /* Build configuration list for PBXNativeTarget "WebM-macOS" */;
+			buildPhases = (
+				B45B809324BD8A76008D3116 /* Headers */,
+				B45B809424BD8A76008D3116 /* Sources */,
+				B45B809524BD8A76008D3116 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebM-macOS";
+			productName = "WebM-macOS";
+			productReference = B45B809724BD8A76008D3116 /* libWebM-macOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		B4A0CB0D2406F31B00F15E81 /* WebM-tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4A0CB172406F31B00F15E81 /* Build configuration list for PBXNativeTarget "WebM-tvOS" */;
@@ -109,6 +171,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Rainway Inc.";
 				TargetAttributes = {
+					B45B809624BD8A76008D3116 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					B4A0CB0D2406F31B00F15E81 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -128,11 +193,27 @@
 			projectRoot = "";
 			targets = (
 				B4A0CB0D2406F31B00F15E81 /* WebM-tvOS */,
+				B45B809624BD8A76008D3116 /* WebM-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B45B809424BD8A76008D3116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45B80A524BD8A85008D3116 /* file_util.cc in Sources */,
+				B45B80A824BD8A8F008D3116 /* mkvreader.cc in Sources */,
+				B45B80A324BD8A7F008D3116 /* mkvmuxerutil.cc in Sources */,
+				B45B80A624BD8A88008D3116 /* hdr_util.cc in Sources */,
+				B45B80A724BD8A8C008D3116 /* mkvparser.cc in Sources */,
+				B45B80A224BD8A7B008D3116 /* mkvmuxer.cc in Sources */,
+				B45B809E24BD8A76008D3116 /* WebM_macOS.cpp in Sources */,
+				B45B80A424BD8A83008D3116 /* mkvwriter.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4A0CB0A2406F31B00F15E81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +231,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B45B809F24BD8A76008D3116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78995B7FMV;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = ../;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B45B80A024BD8A76008D3116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78995B7FMV;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = ../;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B4A0CB152406F31B00F15E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,6 +406,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B45B80A124BD8A76008D3116 /* Build configuration list for PBXNativeTarget "WebM-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45B809F24BD8A76008D3116 /* Debug */,
+				B45B80A024BD8A76008D3116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B4A0CB092406F31B00F15E81 /* Build configuration list for PBXProject "WebM-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
